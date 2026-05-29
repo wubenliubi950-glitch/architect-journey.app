@@ -2,6 +2,7 @@
 
 import { useEffect, useState } from "react";
 import { Button } from "@/components/ui";
+import { DemoBanner } from "@/components/DemoBanner";
 import { TOTAL_STEPS, useTripStore } from "@/store/tripStore";
 import { Step1Origin } from "@/components/steps/Step1Origin";
 import { Step2Prefectures } from "@/components/steps/Step2Prefectures";
@@ -69,8 +70,9 @@ export function Wizard() {
   return (
     <div className="flex min-h-dvh flex-col">
       {/* ヘッダー */}
-      <header className="sticky top-0 z-10 border-b border-stone-200 bg-stone-100/90 px-5 pb-3 pt-4 backdrop-blur">
-        <div className="mx-auto max-w-md">
+      <header className="sticky top-0 z-10 border-b border-stone-200 bg-stone-100/90 backdrop-blur">
+        <DemoBanner />
+        <div className="mx-auto max-w-md px-5 pb-3 pt-4">
           <div className="flex items-center justify-between">
             <span className="text-sm font-bold text-stone-800">建築巡り</span>
             <span className="text-xs text-stone-400">

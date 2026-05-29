@@ -7,12 +7,20 @@ import { config, isMockGoogle } from "@/lib/server/config";
 const MOCK_PLACES: Record<string, PlaceDetails> = {
   "mock-tokyo-st": { name: "東京駅", address: "東京都千代田区丸の内1", lat: 35.6812, lng: 139.7671 },
   "mock-shinjuku-st": { name: "新宿駅", address: "東京都新宿区", lat: 35.6896, lng: 139.7006 },
-  "mock-shin-osaka-st": { name: "新大阪駅", address: "大阪府大阪市淀川区", lat: 34.7335, lng: 135.5003 },
-  "mock-takamatsu-st": { name: "高松駅", address: "香川県高松市浜ノ町", lat: 34.3528, lng: 134.0466 },
+  "mock-shibuya-st": { name: "渋谷駅", address: "東京都渋谷区", lat: 35.658, lng: 139.7016 },
+  "mock-ikebukuro-st": { name: "池袋駅", address: "東京都豊島区", lat: 35.7295, lng: 139.7109 },
+  "mock-shinagawa-st": { name: "品川駅", address: "東京都港区", lat: 35.6285, lng: 139.7387 },
+  "mock-ueno-st": { name: "上野駅", address: "東京都台東区", lat: 35.7138, lng: 139.7773 },
   "mock-yokohama-st": { name: "横浜駅", address: "神奈川県横浜市西区", lat: 35.4658, lng: 139.6223 },
+  "mock-kamakura-st": { name: "鎌倉駅", address: "神奈川県鎌倉市", lat: 35.3192, lng: 139.5503 },
+  "mock-shin-osaka-st": { name: "新大阪駅", address: "大阪府大阪市淀川区", lat: 34.7335, lng: 135.5003 },
+  "mock-osaka-st": { name: "大阪駅", address: "大阪府大阪市北区", lat: 34.7025, lng: 135.4959 },
+  "mock-namba-st": { name: "難波駅", address: "大阪府大阪市中央区", lat: 34.6657, lng: 135.5012 },
+  "mock-takamatsu-st": { name: "高松駅", address: "香川県高松市浜ノ町", lat: 34.3528, lng: 134.0466 },
   "mock-haneda": { name: "羽田空港", address: "東京都大田区羽田空港", lat: 35.5494, lng: 139.7798 },
   "mock-narita": { name: "成田空港", address: "千葉県成田市", lat: 35.772, lng: 140.3929 },
   "mock-itami": { name: "大阪国際空港(伊丹)", address: "大阪府豊中市", lat: 34.7855, lng: 135.4382 },
+  "mock-kix": { name: "関西国際空港", address: "大阪府泉佐野市", lat: 34.4347, lng: 135.244 },
   "mock-takamatsu-ap": { name: "高松空港", address: "香川県高松市香南町", lat: 34.2142, lng: 134.0156 },
 };
 
