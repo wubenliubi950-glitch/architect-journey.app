@@ -1,0 +1,8 @@
+# Python virtual environment (recreate with requirements.txt)
+venv/
+__pycache__/
+*.pyc
+
+# Local copy of the source DXF (21 MB). The original upload is the source of
+# truth; this copy is only used as script input and is not tracked.
+input/

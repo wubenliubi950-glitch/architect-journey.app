@@ -1,0 +1,31 @@
+{
+  "unit": "meter",
+  "origin_x": 243410.9555850938,
+  "origin_y": 280910.8027183441,
+  "origin_z": 0.0,
+  "x_offset": -243410.9555850938,
+  "y_offset": -280910.8027183441,
+  "z_offset": 0.0,
+  "source_file": "04. Site boundary.dxf",
+  "origin_source": "adopted site boundary (구역계) bbox lower-left",
+  "transformation_formula": {
+    "to_local": "local_x = original_x - origin_x; local_y = original_y - origin_y; local_z = original_z",
+    "to_global": "original_x = local_x + origin_x; original_y = local_y + origin_y; original_z = local_z"
+  },
+  "global_bounding_box": {
+    "min_x": 241192.24,
+    "min_y": 277832.908,
+    "min_z": -0.209,
+    "max_x": 243928.126,
+    "max_y": 281309.186,
+    "max_z": 68.217
+  },
+  "local_bounding_box": {
+    "min_x": -2218.716,
+    "min_y": -3077.894,
+    "min_z": -0.209,
+    "max_x": 517.171,
+    "max_y": 398.383,
+    "max_z": 68.217
+  }
+}
